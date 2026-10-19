@@ -1,3 +1,4 @@
+HEAD
 # ShopSphere — RTU Advanced Java E-Commerce Project
 
 **ShopSphere** is a complete, production-grade Java Enterprise E-Commerce Management System designed as a final practical capstone project adhering strictly to the **Rajasthan Technical University (RTU) Advanced Java syllabus**.
@@ -151,3 +152,6 @@ Double-click `run_swing_admin.bat` to open the Swing GUI.
    Demonstrate `ShopSphereInventoryServer` accepting a `NetworkCommand` over `ObjectInputStream` and writing serialized `Product` objects over `ObjectOutputStream`.
 5. **RMI Registry Lookup:**
    Show `LocateRegistry.createRegistry(1099)` in `RmiServerMain` and `registry.lookup("InventoryService")` in `RmiClientMain`.
+=======
+# ShopSphere---Project
+be5afb37069d503b2ac998c0754a78afa88ab9a7
