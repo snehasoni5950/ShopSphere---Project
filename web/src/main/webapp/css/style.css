@@ -1,0 +1,76 @@
+/* ShopSphere Custom Stylesheet */
+:root {
+    --primary-color: #0d6efd;
+    --navy-dark: #182b49;
+    --body-bg: #f8f9fa;
+    --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--body-bg);
+    color: #333333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.tracking-wide {
+    letter-spacing: 0.5px;
+}
+
+.product-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.product-img-wrapper {
+    background-color: #f1f5f9;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-img-wrapper img {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    transition: transform 0.3s ease;
+}
+
+.hero-banner {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    border-radius: 16px;
+}
+
+.category-pill {
+    transition: all 0.2s;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.category-pill:hover, .category-pill.active {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.stat-card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.rating-stars {
+    font-size: 0.9rem;
+}
